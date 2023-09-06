@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:widgets_tutorials/widgets/gird_view_widget.dart';
 
 import 'widgets/listview_seprated.dart';
 
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
       home: const Scaffold(
-        body: ListViewSeparatedWidget(),
+        body: GridviewWidget(),
       ),
     );
   }
